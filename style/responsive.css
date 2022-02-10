@@ -1,0 +1,32 @@
+@media screen and (max-width:600px) {
+    #tirando {
+        background-color: green;
+    }
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+
+    .rodape img {
+        width: 120px;
+    }
+    .rodape ul {
+        font-size: 12px;
+    }
+    footer img {
+        width: 50px;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .descricao{
+        width: 50%;
+        
+    }
+}
